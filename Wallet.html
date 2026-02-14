@@ -25,6 +25,10 @@
             position: relative;
             overflow: hidden;
             cursor: pointer;
+
+            /* Remove tap highlight on mobile */
+    -webkit-tap-highlight-color: transparent; /* iOS/Safari */
+    tap-highlight-color: transparent;         /* Chrome/Android */
         }
 
         .slider-track {
@@ -87,3 +91,4 @@
 
 </body>
 </html>
+
